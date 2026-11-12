@@ -28,10 +28,13 @@ header{
 
 }
 header > h1 {
-    padding-top: 50px 
+  
+    padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font2);
-    font-size: 5.8vw;
+    font-size: clamp(2em, 5.8vw, 4em);
+
+}
 
 
 }
@@ -52,7 +55,8 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 1.8vw;
+    font-size: clamp(1em, 1.8vw, 1.5em);
+}
 }
 section > p{
     padding-bottom: 2em;
